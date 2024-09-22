@@ -1,0 +1,202 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+.logo td{
+    height: 80px;
+    width: px;
+  
+}
+    
+img{
+    width: 110px;
+    border-radius: 20px;
+    padding-top: 15px;
+    height: 150px;
+    margin: center;
+}
+
+
+body{
+    font-family: sans-serif;
+    background-color: white;
+    overflow-x: hidden;
+}
+
+table{
+    width: 100vw;
+    text-align: center;
+    
+  
+}
+
+.header{
+
+    background-color: #10502f;
+    color: #ffff;
+    box-shadow: 0px 2px #888888;
+    border-collapse: collapse;
+    font-size: 0.80em;
+    position: fixed;
+
+}
+
+td{
+    height: 40px;
+    color: #9db7a9;
+    
+}
+
+.nav-conteu-lateral{
+    width: 150px;
+    
+}
+
+.nav-destacado{
+
+background-color: #0c480c;
+border-bottom: 3px solid white;
+color: white;
+}
+
+.tabela-brasileirao{
+    position: absolute;
+    margin-top: 196px;
+    z-index: -1;
+    border: 1px solid #e9eaeb;
+    border-top: none;
+    border-bottom: none;
+    width: 50vw;
+    margin-left: 25%;
+    font-size: 0.75em;
+    border-collapse: collapse;
+    background-color: white;
+}
+.tabela-brasileirao th{
+    
+    border-top: 1px solid #e0e0e0;
+    font-weight: 100;
+    color: #70758d;
+    padding: 4px;
+    height: 50px;
+
+}
+
+.tabela-brasileirao td{
+  
+    border-top: 1px solid #e0e0e0;  
+    font-weight: 100;
+    color: black;
+    padding: 4px;
+    height: 45px;
+    font-size: 1.2em;
+    width: 35;
+
+}
+
+#tabela-brasileirao-header{
+
+    padding: 15px;
+    background-color: #f1f3f4;
+    text-align: left;
+    color: #70758d;
+}
+
+#ano{
+    font-weight: 600;
+    color: #4285f4;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+.tabela-brasileirao img{
+    width: 40px;
+    height: 50px;
+    
+}
+
+.tabela-colunas-bordas{
+
+    border-top: none !important;
+}
+
+.titulo-clube{
+
+width: 35%;
+text-align: left;
+}
+
+.titulo-ultimas-cinco{
+    width: 20%;
+}
+
+.titulo-ultimas-cinco img{
+width: 20px;
+
+}
+
+.borda-azul{
+
+    border-left: 3px solid #4285f4;
+    
+}
+
+.borda-laranja{
+
+    border-left: 3px solid #f4cc68;
+}
+.borda-verde{
+
+    border-left: 3px solid green;
+
+}
+
+.borda-vermelha{
+
+     border-left: 3px solid red;   
+
+}
+
+.legenda table{
+
+    width: 55vw;
+    margin: 5px;
+    margin-top: 10%;
+    margin-bottom: 10px;
+    border: 1px solid#e9eaeb;
+    border-radius: 3px;
+    border-radius: 3px;
+    padding: 15px;
+    text-align: left;
+    background-color: #f8f9fa;
+}
+
+.legenda th{
+
+    border-top: none;
+    font-size: 1.1em;
+    color: black;
+    font-weight: 700;
+    height: 3px;
+
+}
+
+.legenda img{
+
+    width: 30px;
+
+}
+
+.legenda td{
+    border-top: none;
+    font-size: 1em;
+    height: 3px;
+    width: 50%;
+}
